@@ -1,10 +1,15 @@
 <!doctype html>
-<html>
+<html lang="zh">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>首页</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-app-status-bar-style" content="black" />
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0" />
+
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
@@ -22,30 +27,23 @@
 
     <!-- Add your site or application content here -->
     <div class="header">
-      <div class="navbar navbar-default" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-
-            <a class="navbar-brand" href="#/">issstu</a>
-          </div>
-
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
-
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/about">About</a></li>
-              <li><a ng-href="#/">Contact</a></li>
-            </ul>
-          </div>
+      <div class="container2"><!--导航栏内部容器：主要保证分辨率高时，内容大小不变居中显示-->
+        <div class="logo_h"><!--logo:左端显示-->
+          <a href="#/index">
+            <h1>武汉大学国际软件学院学生工作办公室</h1>
+          </a>
         </div>
-      </div>
+        <div class="logo_i"><!--logo图像：右端显示-->
+          <a ng-href="index.html">
+            <img src="static/img/logo.jpg" />
+          </a>
+          <ul id="nav">
+            <a ng-href="#/"><li>组织机构</li></a>
+            <a ng-href="#/"><li>校友登记</li></a>
+            <a ng-href="#/"><li>校友捐赠</li></a>
+            <a ng-href="#/"><li>校企合作</li></a>
+          </ul>
+        </div>
     </div>
 
     <div class="container">
@@ -53,8 +51,41 @@
     </div>
 
     <div class="footer">
-      <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+      <div class="container2">
+        <div class="footer_left">
+          <!--footer_left-->
+          <div class="footer_l1">
+            <!--footer_l1-->
+            <ul class="footer_l1_ul">
+              <li class="tlu1"> <i> </i>联系电话：000-00000000</li>
+              <li class="tlu2"> <i> </i>QQ：00000000</li>
+              <li class="tlu3"> <i> </i> 群号：0000000</li>
+            </ul>
+          </div>
+          <div class="footer_l2">
+            <!--tial_l2-->
+            <div class="footer_l2_r">
+              <!--footer_l2_r-->
+              <p><span class="glyphicon glyphicon-heart"></span>Copyright © 2016 ISS Students Affair Office of Wuhan University.</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer_right">
+          <!--footer_right-->
+          <div class="contact">
+            <a href="" class="icr-1"><b><i></i></b></a>
+            <a href="" class="icr-2"><b><i></i></b></a>
+            <a href="" class="icr-3"><b><i></i></b></a>
+          </div>
+          <div class="rpcode">
+            <p>扫描关注</p>
+            <p>国软校友会</p>
+            <a href="">
+              <img src="static/img/yzm.jpg" />
+              <i class="zoom"><img src="static/img/yzm.jpg" /></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 

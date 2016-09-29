@@ -1,0 +1,107 @@
+.header
+{
+	position:static;
+}
+
+.infor
+{
+	overflow:hidden;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top: 20px;
+}
+
+.infor .infor_avator
+{
+	float:right;
+	text-align:center;
+	width:50%;
+}
+
+.infor_avator img
+{
+	/*width:100%;*/
+}
+
+.infor .infor_basic
+{
+	float:left;
+	width:50%;
+}
+
+.infor .infor_basic div
+{
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+.infor [class*='inft']
+{
+	text-align:left;
+	background-color:#00a497;
+	width:100%;
+}
+.infor [class*='inft'] p{
+	padding-left: 10px;
+}
+
+.infor [class*='infb']
+{
+	text-align:right;
+	background-color:#64c29e;
+	width:100%;
+}
+
+.infor [class*='infb'] p
+{
+	padding-right:10px;
+}
+
+.infor div.details{
+	text-align: left;
+	text-indent: 2em;
+}
+.infor div.details p{
+	padding-left: 10px;
+}
+
+.infor .infor_detail
+{
+	float:left;
+	width:100%;
+}
+
+.infor .infor_detail div
+{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.infor .infor_back
+{
+	float:left;
+	width:100%;
+	margin-top:5px;
+	color: #fff;
+}
+.infor_back:hover a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.infor .infor_back div
+{
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+	font-family:'微软雅黑',"黑体";
+}
+.infbbk{
+	background-color: #64c29e;
+}
+.infbbk:hover{
+	background-color: #00a497;
+}
